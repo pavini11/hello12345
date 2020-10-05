@@ -69,7 +69,7 @@ int main()
         printf("1.Enqueue\n2.Dequeue\n3.Peek\n4.Display\n5.Exit");
         printf("\nChoice is:");
         int choice;
-        scanf("%d", *choice);
+        scanf("%d", &choice);
         switch(choice)
         {
             case 1:
