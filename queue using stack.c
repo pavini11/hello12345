@@ -69,7 +69,7 @@ int main()
     {
         printf("Press 1 to add 2 to delete and 3 to print else 4");
         int choice;
-        scanf("%d", *choice);
+        scanf("%d", &choice);
         switch(choice)
         {
         case 1:
