@@ -161,7 +161,7 @@ int main()
 
     int choice1, f=1;
     printf("Enter the command you want to perform:\n1.Insertion\t2.Deletion\t3.Search\t4.Display\nEnter -1 to exit.");
-    scanf("%d", *choice1);
+    scanf("%d", &choice1);
     if (choice1==-1)
         f=0;
     while(f)
